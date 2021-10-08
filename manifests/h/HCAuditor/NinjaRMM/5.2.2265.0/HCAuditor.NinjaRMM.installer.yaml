@@ -1,0 +1,15 @@
+# Created using wingetcreate 0.4.1.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: HCAuditor.NinjaRMM
+PackageVersion: 5.2.2265.0
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: msi
+  InstallerUrl: https://app.ninjarmm.com/agent/installer/c0206d5b-9767-4133-aeed-85ba691385eb/henrycountyauditor-5.2.2265-windows-installer.msi
+  InstallerSha256: 20E1E20C0B52BD8CB0698C1CB5576874CA557D2FC2D5798A82B191F589F8A3B1
+  ProductCode: '{52D1F2CC-0DC6-4DAB-BD99-55822AB7BE59}'
+ManifestType: installer
+ManifestVersion: 1.0.0
+
